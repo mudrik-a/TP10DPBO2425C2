@@ -1,0 +1,142 @@
+/* Reset Dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9; /* Background abu-abu sangat muda biar gak silau */
+    color: #333333; /* Text jadi gelap */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Merah Cerah */
+.navbar {
+    background: linear-gradient(90deg, #ff0000 0%, #cc0000 100%); /* Merah Cerah Gradasi */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3); /* Ada bayangan merah dikit */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 800; /* Lebih tebal */
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic; /* Biar kayak logo balap */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: all 0.3s;
+    opacity: 0.9;
+}
+
+.nav-links a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    opacity: 1;
+}
+
+/* Container Utama (Kertas Putih) */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Putih bersih */
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05); /* Shadow halus elegan */
+    border-top: 5px solid #ff0000; /* Aksen merah di atas box */
+}
+
+/* Judul Halaman */
+h2 {
+    color: #cc0000; /* Judul merah agak gelap */
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* Table Styling (Clean Light) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: linear-gradient(90deg, #ff0000 0%, #cc0000 100%); 
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-bottom: 3px solid #b30000; /* Garis bawah merah tua biar tegas */
+}
+
+tr:hover {
+    background-color: #fff5f5; /* Kalau di-hover jadi merah muda tipisss banget */
+}
+
+/* Tombol */
+.btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 50px; /* Tombol jadi bulat kapsul */
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.btn:hover { transform: scale(1.05); }
+
+.btn-primary { background-color: #cc0000; color: white; } /* Merah */
+.btn-success { background-color: #28a745; color: white; } /* Hijau */
+.btn-danger { background-color: #fff; color: #dc3545; border: 1px solid #dc3545; } /* Putih outline merah */
+.btn-warning { background-color: #ffc107; color: #333; } /* Kuning */
+
+/* Form Styling (Light Mode) */
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #555; }
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd; /* Border abu tipis */
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    box-sizing: border-box; /* Biar padding gak bikin lebar offside */
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #ff0000; /* Pas diklik bordernya merah */
+    background-color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #888;
+    font-size: 13px;
+    margin-top: 20px;
+}
